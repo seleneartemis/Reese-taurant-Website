@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Reese-taurant</title>
+</head>
+<body>
+	<div class="nav">
+	  <input type="checkbox" id="nav-check">
+	  <div class="nav-header">
+	  	<div class="logo-image">
+                <img src="logo.png" class="img-fluid"> Reese-taurant
+            </div>
+	    <div class="nav-title">
+	      <a>Reese-taurant</a>
+	    </div>
+	  </div>
+	  <div class="nav-btn">
+	    <label for="nav-check">
+	      <span></span>
+	      <span></span>
+	      <span></span>
+	    </label>
+	  </div>
+	  
+	  <div class="nav-links">
+	    <a href="home.html">Home</a>
+	    <a href="menu.html" target="_blank">Menu</a>
+	    <a href="contactus.html" target="_blank">Contact Us</a>
+	 </div>
+	</div>
+
+		<div class = "container">
+					<!-- Slideshow container -->
+				<div class="slideshow-container">
+				  <!-- Full-width images with number and caption text -->
+				  <div class="mySlides fade">
+				    <div class="numbertext"></div>
+				    <img src="HOMEPAGE/new1.png" class="carouselimg" >
+				    
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext"></div>
+				    <img src="HOMEPAGE/new2.png"  class="carouselimg" >
+				    
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext"></div>
+				    <img src="HOMEPAGE/new3.png"  class="carouselimg" > 
+				    
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext"></div>
+				    <img src="HOMEPAGE/new4.png" class="carouselimg" >
+				  </div>
+				</div>
+		<div>
+			
+		</div>
+	</div>
+
+
+<div class="new-container">
+	<div class = "description">
+	<h2>THE BEST OF BOTH WORLDS</h2>
+	<p>Newly Opened Reese-taurant in town!</p>
+	<p>Get ready to taste and get best new flavors in town. This will have you drooling more than ever! All of the food are handmade from scratch. we believe in offering delicious and reasonably priced food along with excellent customer service. We make sure that every member of the Frankie’s family carries a strong passion and enthusiasm for the food that we serve. What are you waiting for? Order yours now! </p>
+	</div>
+	<button>Order Now!</button>
+</div>
+
+
+
+<div class="new-container1">
+	<div class = "description1">
+	<h2>FOR INQUIRIES:</h2>
+	<p>Contact Reese Rivera</p>
+	<p>rivera1820902@mkt.ceu.edu.ph</p>
+	</div>
+</div>
+
+
+
+<!--JAVASCRIPT-->
+<script type="text/javascript">
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+  
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";
+	  }
+
+	  slideIndex++;
+	  
+	  if (slideIndex > slides.length) {slideIndex = 1}
+	  slides[slideIndex-1].style.display = "block";
+	  setTimeout(showSlides, 2000); // Change image every 2 seconds
+
+	  }
+</script>
+</body>
+</html>
